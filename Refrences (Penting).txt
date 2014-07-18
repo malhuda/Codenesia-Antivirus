@@ -1,0 +1,14 @@
+REFERENCES
+- MSVBVM60.dll	std
+- VB6.OLB	std
+- STDOLE2.TLB	std
+- Interfaces.tlb	ctm
+- vbComCtl.tlb	ctm
+- OleGuids3.tlb	ctm
+- shdocvw.dll	ctm
+- wshom.ocx	ctm
+
+
+KET
+std	: standar
+ctm	: custom

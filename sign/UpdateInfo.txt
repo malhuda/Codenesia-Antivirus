@@ -1,0 +1,1 @@
+[UpdateInfo]3~2~232~Selamat menikmati kebebasan CMC, dukung pengembangan CMC dengan membuat plugin untuk CMC dalam bahasa pemrograman yang anda kuasai.CMC untuk versi vista sedang kami rancang~@CMC PH#3 build.2 baru saja di relase di Codenesia, dengan tambahan heuristic untuk 20 varian sality, namun heuristic ini masih dalam ujicoba. Hat-hati sality punya 24 varian lebih.... @
