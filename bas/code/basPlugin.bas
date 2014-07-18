@@ -9,7 +9,7 @@ Option Explicit
 '---sd 17 januari 2010:
 '--->penanganan plugin vb6 berbeda dengan plugin selain vb6, karena vb6 menggunakan activex dll(non-standard-dll).
 
-'---dan khusus untuk CMC ajah.
+'---dan khusus untuk Spectra ajah.
 '---oleh:ari pambudi [pamzlogic] 2009-2010.
 '---removed validasi oleh Muhammad Alhuda ( dragonarmored@gmail.com ) 2014-2015
 '********************************************************************************'
@@ -22,7 +22,7 @@ Public Type PG_PLUGIN_GENERAL_INFORMATION
     szPluginAuthorEMail                 As String 'misal: ---> iguana@gmail.com
     szPluginAuthorAddress               As String 'misal: ---> somewhere
     szPluginValidationID                As String 'misal: ---> 3B616451572CCA2DF5FB379501000000004D3000 --->[reverse:CRC32 untuk semua section yg dapat dieksekusi]+[reverse:CRC32 untuk semua section yg tidak dapat dieksekusi]+[reverse:total CRC32 yg dapat dieksekusi terhadap struktur value total CRC32 yg tidak dapat dieksekusi]+[reverse:2 ^ jumlah section]+[reverse:panjang semua section yg ada isinya].
-    szPluginStartupPathW                As String 'misal: ---> C:\Program Files\CMC\Plugins\IGByteFix.dll
+    szPluginStartupPathW                As String 'misal: ---> C:\Program Files\Spectra\Plugins\IGByteFix.dll
     nPluginCharacteristic               As Long 'misal: ---> 0 = tidak aktif di memori, 1 = aktif di memori.
     nPluginVersionMajor                 As Long 'misal:versi 1.5.400 ---> 1
     nPluginVersionMinor                 As Long 'misal:versi 1.5.400 ---> 5
@@ -42,8 +42,8 @@ Private Type MY_PLUGIN_GENERAL_INFORMATION '---1548 bytes.
     nPluginVersionRevision              As Long 'misal:versi 1.5.400 ---> 400
 End Type
 
-Private Const szStdLibFuncGetPluginInfo     As String = "CPgGetInfo0" '---CMC Plugin Get Informations
-Private Const szStdLibFuncPluginGo          As String = "CPgGo0" '---CMC Plugin Go (lakukan sesuai keahlian masing-masing).
+Private Const szStdLibFuncGetPluginInfo     As String = "CPgGetInfo0" '---Spectra Plugin Get Informations
+Private Const szStdLibFuncPluginGo          As String = "CPgGo0" '---Spectra Plugin Go (lakukan sesuai keahlian masing-masing).
 Private Const szStdLibFuncDllGetClassObject As String = "DllGetClassObject" '---fungsi yg selalu ada pada activex dll.
 Private Const szStdLibFuncDllRegisterServer As String = "DllRegisterServer" '---fungsi yg selalu ada pada activex dll untuk registrasi.
 
@@ -967,7 +967,3 @@ LBL_TERAKHIR:
         Err.Clear
     End If
 End Function
-
-
-
-
