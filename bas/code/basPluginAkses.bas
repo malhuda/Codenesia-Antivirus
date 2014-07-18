@@ -22,7 +22,7 @@ Dim HeadS                   As String
     
     LstOut.Clear
     If nPluginCount = 0 Then
-        LstOut.AddItem j_bahasa(55) & " www.hybrid.16mb.com"
+        LstOut.AddItem j_bahasa(55) & " www.spectraid.cf"
         Exit Sub
     ElseIf nPluginCount < 0 Then
         Exit Sub
@@ -78,7 +78,6 @@ Dim hIcon                   As Long
     End If
     
 End Sub
-
 
 Public Sub RunPlugin(PlugIndek As Long)
 Dim RetRun                  As Long
