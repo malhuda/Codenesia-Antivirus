@@ -1,0 +1,21 @@
+Codenesia-Antivirus
+===================
+
+Codenesia - Indonesian Antivirus
+
+Setiap code dalam source CMC punya kredit tersendiri,
+Anda boleh mengembangkan dan mengganti kode-kode yang ada dengan tnapa menghilangkan kredit untuk pembuatnya
+
+VBCOMCTL
+- vbComCtl@msn.com
+
+Jcbutton
+- Junned.Chhipa
+
+CMC
+- A.M Hirin (HrXxX)
+- Ari Pambudi (Pamzlogic)
+
+DLL
+
+Uploaded By : Mühämmäð Älhüðä
